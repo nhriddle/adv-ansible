@@ -19,4 +19,3 @@
       - name: Hosts to be rebooted.
         debug:
           msg: " has not been rebooted since  days,which is older than a month"
-        when: (uptime_days | int) > 30
